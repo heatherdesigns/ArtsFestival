@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Advertisements>
+  <Ad>
+    <ImageUrl>images/jennifer.png</ImageUrl>  
+    <AlternateText>Artist Jennifer Noren</AlternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>images/jewelry.png</ImageUrl>  
+    <AlternateText>Jewelry at the ARTS Festival</AlternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>images/music.png</ImageUrl>  
+    <AlternateText>Music at the ARTS Festival</AlternateText>
+  </Ad>
+</Advertisements>

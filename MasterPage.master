@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <!-- ASP.NET Final Project
+        Heather Taylor
+        April 2016 -->
+    <title>Arts Festival</title>
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/main.css" rel="stylesheet" />
+    <link href="styles/font-awesome-4.6.1/css/font-awesome.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,600,700,500' rel='stylesheet' type='text/css' />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server"></asp:UpdatePanel>
+        <ContentTemplate>
+        <section id="container">		
+            <header>				
+                <section id="top">				
+                    <div id="social-icons">					
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>					
+                    <i class="fa fa-twitter-square" aria-hidden="true"></i>					
+                    <i class="fa fa-instagram" aria-hidden="true"></i>					
+                    <i class="fa fa-pinterest-square" aria-hidden="true"></i>				
+                    </div>			
+                </section>		
+            </header>	
+            <nav>			
+                <img src="images/logo.png" alt="Arts Festival logo"/>				
+                <ul>					
+                    <li><a href="Default.aspx">Home</a></li>				
+                    <li><a href="registration.aspx">Registration</a></li>				
+                    <li><a href="artists.aspx">Participating Artists</a></li>				
+                    <li><a href="volunteers.aspx">Volunteer</a></li>				
+                    <li><a href="contact.aspx">Contact Us</a></li>			
+                </ul>		
+            </nav>
+			
+            <main>		
+                <div id="hero-img">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolderHeroImage" runat="server"></asp:ContentPlaceHolder>
+                </div>			
+                <div id="content-left">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolderLeft" runat="server"></asp:ContentPlaceHolder>
+                </div>			
+                <div id="content-right">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolderRight" runat="server"></asp:ContentPlaceHolder>
+                </div>		
+            </main>
+			
+            <footer>			
+                <p>ARTS festival</p>	
+                <p>July 7-9, 2017</p>		
+                <p>Treasure Island Marina</p>			
+                <p>Troy, Ohio 45373</p>			
+                </br>		
+                <div id="copyright">
+			        <h4>
+				        Copyright &copy; 
+				        <% DateTime dt = DateTime.Now;
+				        Response.Write(dt.Year.ToString());%>
+				         Heather Taylor.
+			        </h4>
+		        </div>		
+            </footer>	
+        </section>
+        </ContentTemplate>
+    </form>
+</body>
+</html>

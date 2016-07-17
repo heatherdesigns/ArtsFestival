@@ -1,0 +1,187 @@
+﻿body, h1, h2, h3, h4, h5, h6, p{
+	font-family: 'Raleway', sans-serif;
+    line-height: 1.3em;
+}
+
+h1{
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+
+h2{
+    font-size: 1em;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 1em;
+}
+
+h4{
+    font-size: 0.8em;
+}
+
+footer{
+	background-color: #b5bc00;
+	clear: both;
+	color: #555;
+	min-height: 100px;
+	padding: 1em;
+	width: 100%;
+}
+
+footer p{
+	font-size: .8em;
+	line-height: 1.2em;
+	text-align: center;
+}
+
+header{
+	
+}
+
+main{
+	width: 100%;
+}
+
+nav{
+	font-weight: 600;
+	min-height: 165px;
+	padding: 0 1%;
+	text-align: right;
+}
+
+nav img{
+	float: left;
+	width: 30%;
+	}
+	
+nav ul{
+	float: right;
+	padding-top: 4em;
+	width: 66%;
+}
+
+nav ul li{
+	display: inline;
+	line-height: 2em;
+	list-style-type: none;
+	padding: 2em;
+}
+
+nav ul li a{
+	color: #555;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	color: #59bfd2;
+}
+
+#about{
+	float: left;
+    padding: 10px 5px;
+	width: 60%;
+}
+
+#about ul{
+    padding: 20px;
+}
+
+#about ul li{
+    line-height: 1.5em;
+    list-style-type: square;
+    margin-left: 25px;
+}
+
+#defaultImages{
+	float: right;
+    padding: 10px 5px;
+	width: 35%;
+}
+
+#container{
+	width: 100%;
+}
+
+#content-left{
+	background-color: #ffffff;
+	float: left;
+	min-height: 300px;
+    padding: 10px 5px;
+	width:16%;
+}
+
+#content-right{
+	background-color: #ffffff;
+	float: left;
+	min-height: 300px;
+    padding: 10px 5px;
+	width: 79%;
+}
+
+#copyright{
+    font-size: 0.7em;
+	margin-left: 8%;
+	margin-top: 1.0%;
+	padding: 2em 2em 0em 0em;
+}
+
+#hero-img img{
+	width: 100%;
+}
+
+#social-icons{
+	color: #fff;
+	float: right;
+	font-size: 1.1em;
+	padding-right: 6%;
+	padding-top: 14px;
+}
+
+#top{
+	background-color: #2e0927;
+	height: 45px;
+	width: auto;
+}
+
+.error{
+    color: #d90000;
+    font-size: 0.7em;
+    line-height: 1.6em;
+}
+
+.fa{
+	padding: 0px 6px;
+}
+
+.fa:hover{
+	color: #59bfd2;
+}
+
+.hyperlink{
+	color: #555;
+	text-decoration: none;
+}
+
+.hyperlink:hover{
+	color: #59bfd2;
+}
+
+.results{
+    font-size: .8em;
+    line-height:1.6em;
+}
+
+.table{
+    line-height: 1.6em;
+}
+
+.thanks{
+    color: #59bfd2;
+    font-weight: 700;
+    line-height: 1.6em;
+}
+
+
